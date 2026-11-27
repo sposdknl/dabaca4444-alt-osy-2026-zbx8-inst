@@ -1,0 +1,8 @@
+@".vagrant/
+*.box
+*.log
+*.vdi
+*.vmdk
+.env
+*.secret
+"@ | Set-Content -Encoding ascii .gitignore
